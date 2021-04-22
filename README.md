@@ -74,7 +74,7 @@
     
     ```
 ### Visualization
-    ```
+   
     import pandas as pd
     import matplotlib.pyplot as plt
     import seaborn as sns
@@ -88,7 +88,7 @@
     plt.figure(figsize=(15,5))
     sns.barplot(xlabel, ylabel, data=df, palette="rocket").set_title(title)
     
-    ```
+   
 ### References:
    - [DataBricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4574377819293972/2246755934805346/3186223000943570/latest.html)
    - [SeaBorn](https://seaborn.pydata.org/generated/seaborn.barplot.html)
