@@ -18,7 +18,8 @@
 
    We get the data from the url using urllib.request library. Once we get the data we save the data in temporary folder and        name it HowtoStudy.txt
    
-   ```import urllib.request
+   ```
+      import urllib.request
       urllib.request.urlretrieve("https://www.gutenberg.org/files/65129/65129-0.txt" , "/tmp/HowtoStudy.txt")
    ```
    
@@ -86,6 +87,7 @@
     df = pd.DataFrame.from_records(HTSResults, columns =[xlabel, ylabel]) 
     plt.figure(figsize=(15,5))
     sns.barplot(xlabel, ylabel, data=df, palette="rocket").set_title(title)
+    
     ```
 ### References:
    - [DataBricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4574377819293972/2246755934805346/3186223000943570/latest.html)
